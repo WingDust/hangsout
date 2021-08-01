@@ -2,6 +2,10 @@
 ![hangsout](hangsout.png)
 
 - [Make sure to edit the README.md file before you publish your extension.](https://github.com/microsoft/vscode-vsce/issues/391)
+
+## Dependencies
+- [faviator](https://github.com/faviator/faviator)
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
