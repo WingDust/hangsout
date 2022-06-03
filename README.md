@@ -1,55 +1,34 @@
 # hangsout README
 ![hangsout](hangsout.png)
-
-- [Make sure to edit the README.md file before you publish your extension.](https://github.com/microsoft/vscode-vsce/issues/391)
-
 ## Dependencies
 - [faviator](https://github.com/faviator/faviator)
 
 ## Features
+- hangsout(双手离开键盘) 即 save
+- hangsout(双手离开键盘) 即 showHover
+  - 在有报错下，将依VSCode优先自动显示报错的信息
+  - 在有Warn下，VSCode将先显示 Warn
+  - TypeScript/JavaScript 有 JsDoc 下，将自动显示为 Markdown 格式 ，为 VSCode 特性
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Thoughts
+- 添加一个将当前行中所有的 `-` 转成 `_`
+  - vim 宏来解决
 
-For example if there is an image subfolder under your extension project workspace:
+## Appendix
+- 这是一个 Emacs 中 autosave 的 VSCode 版复刻
 
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
 ## Known Issues
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
-
 ## Release Notes
-
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
+### 0.0.3
+- 增加可切换开启保存与 Hover
+- 开放设置配置延时时间
 -----------------------------------------------------------------------------------------------------------
 ## Following extension guidelines
 
