@@ -2,17 +2,17 @@
   "name": "hangsout",
   "displayName": "hangsout",
   "description": "hangs out mean save and show hover",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "wingdust",
   "engines": {
     "vscode": "^1.58.0"
   },
+  "license": "MIT",
   "icon": "hangsout.png",
   "homepage": "https://github.com/WingDust/hangsout",
   "bugs": {
     "url": "https://github.com/WingDust/hangsout.git"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/WingDust/hangsout"
